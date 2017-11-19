@@ -1,0 +1,49 @@
+<div id="upload">
+    <form id="form">
+        <input title="name" placeholder="Message Title" ng-model="name">
+
+        <textarea placeholder="Enter your message..." rows="8" ng-model="body"></textarea>
+
+        <label>
+            <input type="checkbox" ng-model="shouldSmsNotify">     Send SMS
+        </label>
+        <input class="show" type="text" title="smsRecipient" placeholder="SMS Recipient" ng-show="shouldSmsNotify" ng-model="smsRecipient">
+
+        <label>
+            <input type="checkbox" ng-model="shouldEmailNotify">     Send Email
+        </label>
+        <input class="show" type="text" title="emailRecipient" placeholder="Email Recipient" ng-show="shouldEmailNotify" ng-model="emailRecipient">
+
+        <label>
+            <input type="checkbox" ng-model="shouldEncrypt">     Encrypt
+        </label>
+        <input class="show" id="passphrase" type="text" title="passphrase" placeholder="Passphrase" ng-show="shouldEncrypt" ng-model="passphrase">
+
+        <label>
+            <input type="checkbox" ng-model="shouldDelay">     Delay Activation
+        </label>
+        <label ng-show="shouldDelay">
+            Activation Date: <input class="show" type="date" ng-model="activates">
+        </label>
+
+        <label>
+            <input type="checkbox" ng-model="shouldExpire">     Expire
+        </label>
+        <label ng-show="shouldExpire">
+            Expiry Date: <input class="show" type="date" ng-model="expires">
+        </label>
+
+        <label>
+            <input type="checkbox" ng-model="shouldDestroy">     Self Destruct
+        </label>
+        <label ng-show="shouldDestroy">
+            Destroy after: <input class="show" placeholder="Number of Views" type="number" min="0" ng-model="destroy">
+        </label>
+
+        <input type="button" value="Upload" title="Upload" ng-click="upload()" ng-disabled="hasUploaded">
+    </form>
+    <div id="result" ng-show="hasUploaded">
+        <span>Message uploaded. View it here:</span>
+        <a href="http://localhost:8080/v/{{id}}" target="_blank" ng-show="id">http://localhost:8080/v/{{id}}</a>
+    </div>
+</div>

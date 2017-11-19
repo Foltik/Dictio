@@ -1,0 +1,118 @@
+body {
+    background: #222;
+    color: #aaa;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-variant: small-caps;
+    margin: auto auto 5px auto;
+    color: #eee;
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 14px;
+    margin: 5px auto 30px auto;
+}
+
+#container {
+    margin: 50px auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#upload {
+    margin: auto;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    border: 2px solid darkorange;
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    text-align: center;
+    margin: 0px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    transition: all 0.5s linear;
+}
+
+#about-btn {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    margin: 15px 0 15px 0;
+    transition: all linear 0.2s;
+}
+
+#form label {
+    transition: all linear 0.2s;
+}
+
+#form textarea {
+    padding: 10px;
+}
+
+#form input.show {
+    margin: 2px 0 2px 0;
+}
+
+input[type="button"] {
+    margin: 15px auto 15px auto;
+    min-width: 130px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid darkorange;
+    transition: background-color 0.5s ease;
+}
+
+input[type="button"]:hover {
+    color: #fff;
+    background-color: darkorange;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+    transition: all linear 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+#result span,
+#result a {
+    margin: 5px;
+}
+
+*.ng-hide {
+    opacity: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #ad5808;
+    font-size: 18px;
+}
+
+a:hover {
+    color: orange;
+    transition: color 0.3s;
+}
+
+*::-moz-focus-inner {
+    border: 0;
+}

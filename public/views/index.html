@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/main.css">
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/aes.js"></script>
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-animate.min.js"></script>
+    <script src="/js/index.js"></script>
+</head>
+<body ng-app="index">
+<div id="container" ng-controller="pageController">
+    <h1>dictio</h1>
+    <h2>Send anonymous secure messages; no signup required.</h2>
+    <upload-component></upload-component>
+    <input id="about-btn" type="button" value="About" ng-click="test()">
+    <div id="about" ng-show="showAbout">
+        <p>Privacy is the ability of an individual or group to seclude themselves, or information about themselves, and
+            thereby express themselves selectively. The boundaries and content of what is considered private differ
+            among cultures and individuals, but share common themes. When something is private to a person, it usually means
+            that something is inherently special or sensitive to them. </p>
+
+        <p> There is no greater issue in modern times than the <b>illusion</b> of privacy, as corporate conglomerates become
+            increasingly aware of every aspect of your personal life. Your data is becoming a tool to use against you. There are
+            few ways to securely transmit messages without them being intercepted or used for profiling.</p>
+
+        <p> Dictio is a <b>secure</b>, <b>private</b>, and <b>free</b> messaging service that offers the delivery of
+            securely encrypted messages, whithout compromising anonymity.</p>
+
+        <p> Dictio allows messages to be encrypted with any passphrase and has a wide range of options, including message
+            expiration, message delay, SMS and email notification, and the ability to restrict the number of times a
+            message can be viewed before it is <i>permanently</i> destroyed. No logging.</p>
+    </div>
+</div>
+</body>
+</html>

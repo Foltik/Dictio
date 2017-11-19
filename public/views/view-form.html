@@ -1,0 +1,14 @@
+<h1 id="head">Viewing Message</h1>
+<h5 id="id">ID: {{getId()}}</h5>
+<div id="view" ng-init="getMessage()">
+    <h1 id="title-h">{{message.name}}</h1>
+    <h5 id="title">Title</h5>
+    <div id="encrypted" ng-show="message.encrypted">
+        <h3>Message Encrypted</h3>
+        <input type="text" placeholder="Passphrase" ng-show="message.encrypted" ng-model="passphrase" ng-change="decrypt()">
+    </div>
+    <h5 id="content">Content</h5>
+    <textarea ng-bind="decryptedBody" rows="20" cols="60" readonly></textarea>
+    <span id="date-text" ng-show="message.created">Date Created</span>
+    <span id="date" ng-show="message.created" ng-bind="message.created"></span>
+</div>
