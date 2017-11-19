@@ -19,4 +19,4 @@ Dictio is a secure, private, and free messaging service that offers the delivery
 Dictio allows messages to be encrypted with any passphrase and has a wide range of options, including message expiration, message delay, SMS and email notification, and the ability to restrict the number of times a message can be viewed before it is permanently destroyed. No logging.
 
 
-![alt text](https://github.com/foltik/Dictio/public/img/header.png "Hack River Dell")
+!(https://github.com/Foltik/Dictio/blob/master/public/img/header.png "Hack River Dell")
