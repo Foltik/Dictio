@@ -18,4 +18,4 @@ Dictio allows messages to be encrypted with any passphrase and has a wide range 
 
 <a title="Hack River Dell 2017" href="http://hackriverdell.com"><img src="https://github.com/Foltik/Dictio/blob/master/public/img/header.png" width="250"/></a>
 <a title="Major League Hacking" href="https://mlh.io"><img src="https://static.mlh.io/brand-assets/logo/official/mlh-logo-color.png" width="250"/></a>
-<a title="Devpost" href="https://hackriverdell2017.devpost.com/"><img src="https://marketing-challengepost.netdna-ssl.com/assets/reimagine2/devpost-icon-c8f52fc37bef931ff121230872382167.svg" width="200"/></a>
+<a title="Devpost" href="https://devpost.com/software/dictio"><img src="https://marketing-challengepost.netdna-ssl.com/assets/reimagine2/devpost-icon-c8f52fc37bef931ff121230872382167.svg" width="200"/></a>
