@@ -1,10 +1,17 @@
 # Dictio
 
 
- ______  _____ _______ _______ _____  _____
- |     \   |   |          |      |   |     |
- |_____/ __|__ |_____     |    __|__ |_____|
+_____    _          _     _         
 
+|  __ \  (_)        | |   (_)        
+
+| |  | |  _    ___  | |_   _    ___  
+
+| |  | | | |  / __| | __| | |  / _ \
+
+| |__| | | | | (__  | |_  | | | (_) |
+
+|_____/  |_|  \___|  \__| |_|  \___/ 
 
 Privacy is the ability of an individual or group to seclude themselves, or information about themselves, and thereby express themselves selectively. The boundaries and content of what is considered private differ among cultures and individuals, but share common themes. When something is private to a person, it usually means that something is inherently special or sensitive to them.
 
